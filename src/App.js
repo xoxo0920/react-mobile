@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{Fragment,Component} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      111
-    </div>
-  );
+class App extends Component {
+  render() { 
+    return ( 
+      <Fragment>17</Fragment>
+     );
+  }
 }
-
+ 
 export default App;
